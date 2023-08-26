@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+/* header section */
+
+.head-sec {
+  margin: 0 150px 0;
+}
+
+.nav-bar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.brand-name > h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.items {
+  width: 55%;
+  display: flex;
+}
+
+.items > p {
+  font-size: 15px;
+  margin: 0 20px;
+}
+
+.button > p {
+  padding: 15px 25px;
+  margin: 0;
+  background-color: #23a6f0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button p i {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+/* main hero section */
+
+.hero-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 150px 0;
+}
+
+.left-text {
+  color: white;
+}
+
+.left-text > h1 {
+  font-size: 60px;
+  line-height: 78px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.left-text p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.left-text span {
+  display: block;
+}
+
+.get-learn {
+  display: flex;
+  align-items: center;
+}
+
+.get-learn p:first-child {
+  font-size: 15px;
+  padding: 10px 25px;
+  background-color: #23a6f0;
+  border-radius: 50px;
+  margin: 0 10px 0 0;
+}
+
+.get-learn p:nth-child(2) {
+  font-size: 15px;
+  padding: 10px 30px;
+  background-color: #23a6f0;
+  border-radius: 50px;
+}
+
+/* Right form section */
+
+.form {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.form > h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+}
+
+.form-input label {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input input {
+  padding: 15px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-input input::placeholder {
+  font-size: 15px;
+  color: #7e7e7e;
+}
+
+.form-input select {
+  padding: 13px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  color: #7e7e7e;
+}
+
+.form-input input[type="submit"] {
+  border: none;
+  background-color: #23a6f0;
+  color: white;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+/* Card section */
+
+.LM-card {
+  margin: 200px 150px 200px;
+}
+
+.med-card {
+  display: flex;
+  justify-content: center;
+}
+
+.lead-med {
+  text-align: center;
+}
+
+.lead-med > h3 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.lead-med > p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.care-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.card {
+  width: 310px;
+}
+
+.card .heading {
+  background-color: #8ec2f2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.heading > h4 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.heading .round {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #23a6f0;
+  margin-right: 12px;
+}
+
+.about {
+  border: 1px solid #8ec2f2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.about > ul {
+  margin: 15px 40px;
+  padding: 0;
+}
+
+.about ul li {
+  list-style: none;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.about ul li:nth-child(1) {
+  margin-top: 30px;
+}
+
+.about ul li:nth-child(6) {
+  color: #3eb1f2;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* 2nd card section */
+
+.leading-medicine {
+  margin: 0 150px 0;
+}
+
+.card-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.card-2 {
+  width: 300px;
+  height: 225px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.card-2 i {
+  color: #f3cd03;
+}
+
+.card-content-1 {
+  height: 100%;
+  margin: 0 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card-content-1 > p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+
+.card-content-1 img {
+  width: 45px;
+}
+
+/* faq section */
+
+.faq-sec {
+  margin: 200px 150px 0;
+}
+
+.faq-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 115px;
+}
+
+.fox-card {
+  width: 280px;
+  display: flex;
+  margin: 0 auto;
+  height: 180px;
+}
+
+.fox-card i {
+  color: #23a6f0;
+  margin-right: 15px;
+}
+
+.fox-quote > span {
+  font-weight: 600;
+}
+
+.fox-quote > p {
+  font-size: 14px;
+}
+
+/* pricing section */
+
+.pricing-sec {
+  margin: 135px 150px 0;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 80px;
+}
+
+.single-card {
+  width: 300px;
+  border: 2px solid #23a6f0;
+  border-radius: 8px;
+}
+
+.free {
+  height: 640px;
+}
+
+.standard {
+  height: 675px;
+  background-color: #252b42;
+  color: #fff;
+}
+
+.standard .card-content {
+  margin-top: 30px;
+}
+
+.premium {
+  height: 640px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.card-content h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.card-content p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.card-content > .money {
+  display: flex;
+  align-items: center;
+}
+
+.card-content > .money h2 {
+  font-size: 38px;
+  color: #23a6f0;
+}
+
+.money .dollar {
+  margin-left: 10px;
+  color: #23a6f0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.money .dollar > p:first-child {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.money .dollar > p:nth-child(2) {
+  margin-top: 0;
+}
+
+.in-card .tick {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.in-card i {
+  height: 30px;
+  width: 30px;
+  background-color: #2dc071;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.in-card .unselect {
+  background-color: #bdbdbd;
+}
+
+.tick > div {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.card-content .btn {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 70px;
+  background-color: #23a6f0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* get in touch section */
+
+.git-sec {
+  margin-top: 100px;
+  background-color: #252b42;
+  height: 245px;
+}
+
+.git-form {
+  margin: 0 170px 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.text-part > h3 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text-part > p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.email-form form input {
+  padding: 17px 15px;
+  width: 250px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.email-form form input::placeholder {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+}
+
+.email-form > p {
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 13px 15px;
+  background-color: #23a6f0;
+  margin: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* footer section */
+
+.footer-sec {
+  margin: 80px 90px 0;
+}
+
+.footer-1 .footer-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot-head .foot-content h2 {
+  font-weight: 600;
+}
+
+.footer-items .get-in-touch p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.foot-head {
+  width: 215px;
+  display: flex;
+  justify-content: center;
+}
+
+.foot-head .fa-icon {
+  margin: 20px 0;
+}
+
+.foot-content .fa-icon i {
+  font-size: 25px;
+  color: #23a6f0;
+  margin-right: 20px;
+}
+
+.foot-content ul {
+  padding: 0;
+}
+
+.foot-content ul li {
+  font-size: 14px;
+  list-style: none;
+  margin: 10px 0;
+}
+
+/* footer-2 section */
+
+.footer-2 {
+  margin-top: 100px;
+}
+
+.footer-2 > p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
